@@ -1,0 +1,50 @@
+
+.custom-toggler.navbar-toggler {
+    border: 2px solid #F50340;
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#F50340' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+section.startup{
+	margin-top: 20px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.card{
+	display:flex;
+	flex-wrap: wrap;
+	margin: 20px;
+	margin-left: 60px;
+	margin-top:30px;
+	background-color: rgba(62, 46, 50,0.5);
+	transition: all 0.5s;
+}
+.card:hover{
+transform: scale(1.1);
+}
+.card .container{
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+}
+.container{
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.card-title{
+	color: #F50340;
+}
+.card-text{
+	color: #F50340;
+}
+footer{
+	background-color: #252424;
+}
+footer.endup{
+	height: 60px;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	color: white; 
+}

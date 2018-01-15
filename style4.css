@@ -1,0 +1,38 @@
+.btn{
+	transition-duration: all 1s;
+  	font-weight: 700px;
+	font-family: 'Montserrat', sans-serif;
+	text-transform:uppercase;
+}
+
+.btn-warning{
+
+	border-radius: 300px;
+	transition: all 1s;
+	background-color: #FF894D;
+	border: 1px solid #FF894D;
+}
+
+.btn-warning:hover {
+ /* border-width: 5px;*/
+  background-color: #B9FF4D;
+  border: 1px solid #B9FF4D;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.custom-toggler.navbar-toggler {
+    border: 2px solid #F50340;
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#F50340' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+footer{
+	background-color: #252424;
+}
+footer.endup{
+	margin-top: 0px;
+	height: 60px;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	color: white; 
+}
